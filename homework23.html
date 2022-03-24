@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column" style="background-color:;">
+    <h2>인공지능</h2>
+    <p>인간의 학습능력과 추론능력, 지각능력, 자연언어의 이해능력 등을 컴퓨터 프로그램으로 실현한 기술이다.</p>
+  </div>
+  <div class="column" style="background-color:;">
+    <h2>C언어</h2>
+    <p>벨 연구소에서 1971년에 리치등에 의해 개발된 시스템 프로그래밍 언어이다. 프로그램을 간결하게 쓸 수 있고, 프로그래밍하기 쉬운 편리한 언어이다.</p>
+  </div>
+</div>
+
+</body>
+</html>
